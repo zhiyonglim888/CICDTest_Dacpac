@@ -2,9 +2,9 @@ IF NOT EXISTS (
   SELECT * 
   FROM   sys.columns 
   WHERE  object_id = OBJECT_ID(N'[dbo].[UserProfile]') 
-         AND name = 'ExternalNestedDbo'
+         AND name = 'ExternalNestedDboIn'
 )
 BEGIN
   ALTER TABLE UserProfile
-    ADD ExternalNestedDbo varchar(255)
+    ADD ExternalNestedDboIn varchar(255)
 END;
