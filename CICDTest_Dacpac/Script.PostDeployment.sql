@@ -1,2 +1,3 @@
-﻿:r .\ExternalFolder\ExternalDbo.sql.
-:r .\ExternalNestedFolder\ExternalNestedDbo.sql.
+﻿:r .\dbo\ExternalFolder\ExternalDbo.sql.
+:r .\dbo\ExternalNestedFolder\ExternalNestedDbo.sql.
+:r .\External\ExternalDbo.sql.
