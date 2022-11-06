@@ -160,9 +160,9 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </PostDeploy>
-    <None Include="TestOutsideDbo\ExternalNested\ExternalNestedDbo.sql" />
     <None Include="TestOutsideDbo\ExternalDbo.sql">
       <AnsiNulls>On</AnsiNulls>
     </None>
+    <None Include="TestOutsideDbo\ExternalNestedDbo.sql" />
   </ItemGroup>
 </Project>
