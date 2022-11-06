@@ -6,5 +6,5 @@ IF NOT EXISTS (
 )
 BEGIN
   ALTER TABLE UserProfile
-    ADD ExternalNestedDbo varchar(255)
+    ADD ExternalNestedDbo varchar(200)
 END;
