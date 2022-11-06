@@ -140,26 +140,26 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="dbo\ExternalFolder\ExternalDbo.sql">
+    <None Include="dbo\ExternalFolder\ExternalDbo.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\ExternalFolder\ExternalNestedFolder\ExternalNestedDbo.sql">
+    </None>
+    <None Include="dbo\ExternalFolder\ExternalNestedFolder\ExternalNestedDbo.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Stored Procedures\DefaultStoreProcFolder.sql">
+    </None>
+    <None Include="dbo\Stored Procedures\DefaultStoreProcFolder.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Tables\DefaultTableFolder.sql">
+    </None>
+    <None Include="dbo\Tables\DefaultTableFolder.sql">
       <AnsiNulls>On</AnsiNulls>
-    </Build>
-    <Build Include="External\ExternalDbo.sql">
+    </None>
+    <None Include="External\ExternalDbo.sql">
       <AnsiNulls>On</AnsiNulls>
-    </Build>
-    <Build Include="External\ExternalNested\ExternalNestedDbo.sql">
+    </None>
+    <None Include="External\ExternalNested\ExternalNestedDbo.sql">
       <AnsiNulls>On</AnsiNulls>
-    </Build>
+    </None>
   </ItemGroup>
 </Project>
