@@ -161,5 +161,9 @@
     <None Include="External\ExternalNested\ExternalNestedDbo.sql">
       <AnsiNulls>On</AnsiNulls>
     </None>
+    <PostDeploy Include="Script.PostDeployment.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </PostDeploy>
   </ItemGroup>
 </Project>
