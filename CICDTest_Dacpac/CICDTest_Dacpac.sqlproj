@@ -123,9 +123,10 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="External" />
-    <Folder Include="External\ExternalNested" />
     <Folder Include="dbo\ExternalFolder" />
     <Folder Include="dbo\ExternalFolder\ExternalNestedFolder" />
+    <Folder Include="TestOutsideDbo" />
+    <Folder Include="TestOutsideDbo\ExternalNested" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\UserTable.sql">
@@ -155,15 +156,13 @@
     <None Include="dbo\Tables\DefaultTableFolder.sql">
       <AnsiNulls>On</AnsiNulls>
     </None>
-    <None Include="External\ExternalDbo.sql">
-      <AnsiNulls>On</AnsiNulls>
-    </None>
-    <None Include="External\ExternalNested\ExternalNestedDbo.sql">
-      <AnsiNulls>On</AnsiNulls>
-    </None>
     <PostDeploy Include="Script.PostDeployment.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </PostDeploy>
+    <None Include="TestOutsideDbo\ExternalNested\ExternalNestedDbo.sql" />
+    <None Include="TestOutsideDbo\ExternalDbo.sql">
+      <AnsiNulls>On</AnsiNulls>
+    </None>
   </ItemGroup>
 </Project>
