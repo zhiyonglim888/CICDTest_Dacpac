@@ -129,6 +129,13 @@
     <Folder Include="TestOutsideDbo\ExternalNested" />
   </ItemGroup>
   <ItemGroup>
+    <DataScripts Include="TestOutsideDbo\*.sql" />
+  </ItemGroup>
+  <Target AfterTargets="BeforeBuild" Name="CreateDataScript">
+    <Delete Files="DataScript.sql" />
+    <WriteLinesToFile Overwrite="false" File="DataScript.sql" Lines=":r .\%(DataScripts.Identity)" />
+  </Target>
+  <ItemGroup>
     <Build Include="dbo\Tables\UserTable.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>

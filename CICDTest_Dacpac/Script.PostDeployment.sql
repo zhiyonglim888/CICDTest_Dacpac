@@ -3,4 +3,5 @@
 :r .\dbo\ExternalFolder\ExternalDbo.sql.
 :r .\dbo\ExternalFolder\ExternalNestedFolder\ExternalNestedDbo.sql.
 --:r $(mypath)"DefaultStoreProcFolder.sql".
-:r .\TestOutsideDbo\*.sql.
+--:r .\TestOutsideDbo\*.sql.
+:r .\DataScript.sql
