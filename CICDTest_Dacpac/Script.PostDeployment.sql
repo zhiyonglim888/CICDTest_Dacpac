@@ -1,6 +1,6 @@
-﻿:setvar path ".\dbo\Stored Procedures\"
+﻿:setvar mypath ".\dbo\Stored Procedures\"
 
 :r .\dbo\ExternalFolder\ExternalDbo.sql.
 :r .\dbo\ExternalFolder\ExternalNestedFolder\ExternalNestedDbo.sql.
-:r $(path)"DefaultStoreProcFolder.sql".
+:r $(mypath)"DefaultStoreProcFolder.sql".
 :r .\TestOutsideDbo\*.sql.
