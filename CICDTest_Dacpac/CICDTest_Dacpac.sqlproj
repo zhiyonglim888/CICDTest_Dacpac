@@ -128,10 +128,13 @@
     <Folder Include="TestOutsideDbo" />
     <Folder Include="TestOutsideDbo\ExternalNested" />
     <Folder Include="TestOutsideDbo1" />
+    <Folder Include="TestOutsideDbo1\OutsideDbo1_1" />
+    <Folder Include="TestOutsideDbo1\OutsideDbo1_2" />
   </ItemGroup>
   <ItemGroup>
     <DataScripts Include="TestOutsideDbo\*.sql" />
     <DataScripts Include="TestOutsideDbo1\*.sql" />
+    <DataScripts Include="TestOutsideDbo1\*\*.sql" />
   </ItemGroup>
   <Target AfterTargets="BeforeBuild" Name="CreateDataScript">
     <Delete Files="DataScript.sql" />
@@ -175,5 +178,7 @@
     <None Include="TestOutsideDbo\ExternalNestedDbo.sql" />
     <DataScripts Include="TestOutsideDbo1\ExternalDbo1.sql" />
     <DataScripts Include="TestOutsideDbo1\ExternalNestedDbo1.sql" />
+    <DataScripts Include="TestOutsideDbo1\OutsideDbo1_2\OutsideDbo1_2.sql" />
+    <DataScripts Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1.sql" />
   </ItemGroup>
 </Project>
