@@ -131,6 +131,7 @@
     <Folder Include="TestOutsideDbo1\OutsideDbo1_1" />
     <Folder Include="TestOutsideDbo1\OutsideDbo1_2" />
     <Folder Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1_1" />
+    <Folder Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1_1\OutsideDbo1_1_1_1" />
   </ItemGroup>
   <ItemGroup>
     <DataScripts Include="TestOutsideDbo\*.sql" />
@@ -181,6 +182,7 @@
     <DataScripts Include="TestOutsideDbo1\ExternalNestedDbo1.sql" />
     <DataScripts Include="TestOutsideDbo1\OutsideDbo1_2\OutsideDbo1_2.sql" />
     <DataScripts Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1.sql" />
-    <DataScripts Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1_1\OutsideDbo1_1_!.sql" />
+    <DataScripts Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1_1\OutsideDbo1_1_1.sql" />
+    <DataScripts Include="TestOutsideDbo1\OutsideDbo1_1\OutsideDbo1_1_1\OutsideDbo1_1_1_1\OutsideDbo1_1_1_1.sql" />
   </ItemGroup>
 </Project>
